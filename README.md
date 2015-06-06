@@ -1,2 +1,1 @@
-# cci
-Solution c++ codes for Cracking the Coding Interview 4th Edition
+Chapter wise c++ source code for Cracking The Coding Interview.

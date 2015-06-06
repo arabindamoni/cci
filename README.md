@@ -1,1 +1,0 @@
-Chapter wise c++ source code for Cracking The Coding Interview.

@@ -63,7 +63,7 @@ public:
 	void remove(int pos){
 		if(pos >= length) return;
 		Node *p = head;
-		if(pos == 0) head = head->next;
+		if(pos == 0) head = head->next; return;
 		for(int i=1;i<pos;i++){
 			p = p->next;
 		}

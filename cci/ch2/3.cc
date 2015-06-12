@@ -1,13 +1,1 @@
-#include<iostream>
-#include"linked_list.h"
-using namespace std;
-
-class p#:public LinkedList{
-	
-};
-
-
-int main(){
-	
-	return 0;
-}
+void remove(int pos) method in LinkedList class exactly does this thing.

@@ -28,6 +28,16 @@ public:
 		return length;
 	}
 
+	//get data of node at index pos
+	int get(int pos){
+		if(pos>=length) return -1;
+		Node *p = head;
+		while(pos--){
+			p=p->next;
+		}
+		return p->data;
+	}
+
 	void append(int data){		
 		insert(length,data);
 	}	

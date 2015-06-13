@@ -1,7 +1,6 @@
 #include"linked_list.h"
 
 class stack:public LinkedList{
-
 public:
 	void push(int data){		
 		insert(0,data);		
@@ -25,6 +24,5 @@ public:
 	int peek(int pos){
 		return get(pos);
 	}
-
 };
 

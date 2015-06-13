@@ -8,15 +8,13 @@ public:
 		Node *p = head;
 		Node *q = head;			
 		if(n==0){
-			cerr<<"wrong vaue of n"<<endl;
-			return -1;
+			throw "Wrong value of n";
 		}
 		while(q!=NULL && n--){
 			q=q->next;
 		}
 		if(q==NULL && n) {
-			cerr<<"wrong vaue of n"<<endl;
-			return -1;
+			throw "Wrong value of n";
 		}
 		while(q){
 			p=p->next;

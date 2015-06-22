@@ -13,7 +13,6 @@ int main(){
 	}
 	cout<<endl;
 	t.inorder();
-	t.level_order();
-	alsddddidd
+	t.level_order();	
 	return 0;
 }

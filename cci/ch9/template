@@ -1,6 +1,18 @@
 #include<iostream>
 #include<ctime>
 using namespace std;
+void printarray(int arr[],int n){
+	for(int i=0;i<n;i++){
+		cout << arr[i] <<" ";
+	}
+	cout << endl;
+}
+
+void swap(int arr[],int i, int j){
+	int tmp = arr[i];
+	arr[i] = arr[j];
+	arr[j] = tmp;
+}
 
 void XXsort(int arr[],int n){
 	

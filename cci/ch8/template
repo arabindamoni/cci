@@ -1,0 +1,10 @@
+#include<iostream>
+#include<ctime>
+using namespace std;
+
+int main(){
+	clock_t start = clock();
+	
+	cout << "Execution time: "<<(clock() - start)/(double)1000000 <<" seconds"<<endl;
+	return 0;
+}
